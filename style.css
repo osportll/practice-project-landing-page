@@ -1,10 +1,16 @@
-/* * {
+* {
   outline: 1px solid red;
-} */
+}
 
+html,
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
 }
+
+/* ----------------HEADER------------------- */
 
 a {
   text-decoration: none;
@@ -14,7 +20,10 @@ a {
 
 .container-1 {
   background-color: #1f2937;
-  height: 400px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  width: auto;
 }
 
 .links {
@@ -22,7 +31,6 @@ a {
   color: #e5e7eb;
   display: flex;
   gap: 30px;
-  margin-left: 150px;
 }
 
 .logo {
@@ -35,32 +43,35 @@ a {
   display: flex;
   justify-content: space-around;
   padding: 16px;
+  gap: 200px;
+  background-color: #1f2937;
 }
 
-img {
+/* img {
   width: 400px;
   height: 300px;
-}
+} */
 
 .text {
   font-size: 48px;
   font-weight: 500;
   color: #f9faf8;
+  width: 10em;
 }
 
 .secondary-text {
   font-size: 18px;
   color: #e5e7eb;
+  height: 5em;
+  width: 30em;
 }
 
 .header-content {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 73em;
 }
-
-/* button {
-  all: unset;
-  cursor: pointer;
-} */
 
 button:focus {
   outline: #eee 1px auto;
@@ -70,9 +81,40 @@ button:focus {
   background-color: #3882f6;
   border-radius: 7px;
   padding: 6px;
-  width: 90px;
+  width: 110px;
   color: #e5e7eb;
   text-align: center;
   border: none;
   cursor: pointer;
+  font-size: 17px;
+}
+
+.left-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: auto;
+  justify-content: center;
+}
+
+.right-items {
+  width: 450px;
+  height: 150px;
+  background-color: rgb(112, 112, 112);
+  padding: 3.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----------------CONTENT------------------- */
+
+.container-2 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-2 div {
+  flex: 1;
 }
