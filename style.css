@@ -1,6 +1,6 @@
-/* * {
+* {
   outline: 1px solid red;
-} */
+}
 
 html,
 body {
@@ -146,4 +146,34 @@ button:focus {
 p {
   color: #e5e7eb;
   font-size: 18px;
+}
+
+q {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  margin: 0;
+  max-width: 25em;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  height: 25em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quote-caption {
+  display: flex;
+  width: 50em;
+  justify-content: end;
+}
+
+figcaption {
+  color: #1f2937;
+  font-weight: 500;
+  font-size: 23px;
 }
