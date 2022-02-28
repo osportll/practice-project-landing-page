@@ -1,6 +1,6 @@
-* {
+/* * {
   outline: 1px solid red;
-}
+} */
 
 html,
 body {
@@ -10,7 +10,7 @@ body {
   min-height: 100vh;
 }
 
-/* ----------------HEADER------------------- */
+/* ------------------HEADER------------------- */
 
 a {
   text-decoration: none;
@@ -42,7 +42,6 @@ a {
   display: flex;
   justify-content: space-around;
   padding: 16px;
-  gap: 200px;
   background-color: #1f2937;
 }
 
@@ -62,7 +61,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 100px;
+  gap: 164.5px;
 }
 
 button:focus {
@@ -98,7 +97,7 @@ button:focus {
   align-items: center;
 }
 
-/* ----------------CONTENT------------------- */
+/* ------------------CONTENT------------------- */
 
 .container-2 {
   display: flex;
@@ -106,10 +105,6 @@ button:focus {
   height: 500px;
   justify-content: center;
 }
-
-/* .container-2 div {
-  flex: 1;
-} */
 
 .content-text {
   font-size: 36px;
@@ -143,10 +138,12 @@ button:focus {
   text-align: center;
 }
 
-p {
+.card p {
   color: #e5e7eb;
   font-size: 18px;
 }
+
+/* ------------------QUOTE SECTION------------------- */
 
 q {
   font-size: 36px;
@@ -176,4 +173,75 @@ figcaption {
   color: #1f2937;
   font-weight: 500;
   font-size: 23px;
+}
+
+/* ------------------SIGN UP SECTION------------------- */
+
+.container-4 {
+  display: flex;
+  justify-content: center;
+  padding: 10em;
+}
+
+.box {
+  background-color: #3882f6;
+  border: solid #f9faf8;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  width: 70em;
+  height: 10em;
+}
+
+.box p {
+  margin: 0;
+  color: #f9faf8;
+}
+
+.button-2-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+
+.p-1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.p-2 {
+  font-size: 18px;
+}
+
+.button-2 {
+  background-color: #3882f6;
+  border: solid 2px #e5e7eb;
+  border-radius: 7px;
+  padding: 6px;
+  width: 110px;
+  color: #e5e7eb;
+  text-align: center;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+/* ------------------FOOTER------------------- */
+
+.container-5 {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.footer {
+  color: #e5e7eb;
 }
